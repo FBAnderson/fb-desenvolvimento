@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url('../imgs/fundo-tres.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+
+    width: 400px;
+    height: 400px;
+    margin: 2rem auto;
+}
+.form-control
+{
+    width:400px;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgba(158, 187, 201, 0.8);
+    box-shadow: 3px 3px 7px rgb(2, 9, 36);
+}
+.tit-formulario
+{
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 3px 3px 7px yellow;
+}
+.label
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #636161;
+}
+.form
+{
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto 15px;
+    text-align: center;
+    color: #636161;
+}
+.btn
+{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(1, 15, 24);
+    background-color: rgb(216, 216, 216);
+    margin-top: 20px;
+    margin-left: 30px;
+    transition: .4s;
+    font-size: 1.3rem;
+}
+.btn:hover{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    background-color: rgb(1, 15, 24);
+    color: rgb(216, 216, 216);
+}
+#senha{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.logo-icon
+{
+    margin-top: 20px;
+    float: right;
+    background-color: #fff;
+    border-radius: 50%;
+}

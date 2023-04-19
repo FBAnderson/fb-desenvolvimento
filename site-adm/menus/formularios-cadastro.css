@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root
+{
+        background-image: url('../imgs/fundo-quatro.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.formulario-container{
+    margin: 50px 50%;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #353434;
+}
+.titulo-formulario
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.rotulo-campo
+{
+    width: 250px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.dado-campo
+{
+    width: 350px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+.btn
+{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    position: relative;
+    background-color: #1f1e1e;
+    color: rgb(10, 210, 245);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    position: relative;
+    background-color: rgb(10, 210, 245);
+    color: #1f1e1e;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.link-formularios
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    
+}

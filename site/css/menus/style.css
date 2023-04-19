@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Singkong, sans-serif;
+}
+
+:root
+{
+    --color-dark:   rgb(5, 11, 31);
+    --color-dark2:  rgba(5, 11, 31, 0.3);
+    --color-blue:   rgb(21, 21, 83);
+    --color-blue2:  #0a79b9da;
+    --color-yellow: rgb(255, 255, 106);
+    --color-white:  #fff;
+    --color-grey:   #a5a5a5;
+    --color-red:    red;
+    --color-red2:   rgb(206, 20, 20);
+}
+body
+{
+    background-image: url('/fb-app/site/img/fundos-telas/fundo-um.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
