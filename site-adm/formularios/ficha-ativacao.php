@@ -1,9 +1,18 @@
 <?php
 
+if(isset($_POST['submit'])){
 
 
+    include_once ('../classes/config.php');
 
 
+        $placa = $_POST['placa'];
+        $porta = $_POST['porta'];
+        $ficha = $_POST['ficha'];    
+
+    $result = mysqli_query($conexao, "INSERT INTO ficha (placa, porta, ficha) VALUES ('$placa', '$porta', '$ficha')");
+
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,19 +35,14 @@
 <a href="../../principal.php" class="link-formularios"><img src="../imgs/icon-home.png" title="Clique para voltar"></a>
 <div class="formulario-container">
     <h1 class="titulo-formulario">Ficha de Ativação - Omnilink</h1>
-    <form method="post" action="#" class="form-control">
+    <form method="post" action="ficha-ativacao.php" class="form-control">
         <label class="rotulo-campo">Placa:&nbsp;</label>
         <input name="placa" type="text" class="dado-campo-r" placeholder="" maxlength="8" autocomplete="off" id="placa" onkeyup="mascara_placa()" required>
-        <label class="rotulo-campo">Porta:&nbsp;&nbsp;&nbsp;</label>
-        <select class="dado-campo" placeholder="" maxlength="" autocomplete="off" required>
-            <option value="portas" class="dado-campo">Selecione a Porta</option>
-            <option value="compartilhada" class="dado-campo">Porta 9001</option>
-            <option value="pamsat" class="dado-campo">Porta 9007</option>
-            <option value="pma" class="dado-campo">Porta 9002</option>
-        </select><br>        
+        <label class="rotulo-campo">Porta Omnilink:&nbsp;</label>
+        <input name="porta" type="text" class="dado-campo-r" placeholder="" maxlength="4" autocomplete="off" id="porta" required><br>
         <label class="rotulo-campo">Ficha - dados:</label><br>
-        <textarea name="ficha" class="historico" rows="9" cols="80"></textarea><br>
-        <input type="submit" class="btn btn-success" value="Gravar" id="button" onclick="">
+        <textarea name="ficha" id="ficha" class="historico" rows="20" cols="80"></textarea><br>
+        <input type="submit" name="submit" class="btn btn-success" value="Gravar" id="submit">
     </form>
 </div>
 </body>
