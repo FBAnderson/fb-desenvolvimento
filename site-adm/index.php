@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../site-adm/menus/menu.css">
     <link rel="stylesheet" href="../site-adm/menus/index-adm.css">
     <style>
-  @font-face {font-family: fontsite; src: url(/site-adm/fonts/Hashiba.ttf);}
+  @font-face {font-family: fontsite; src: url(/site-adm/fonts/Singkong.ttf);}
   
 </style>
     <title>Ferramentas | ADM</title>

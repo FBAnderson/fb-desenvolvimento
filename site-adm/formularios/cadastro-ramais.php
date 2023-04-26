@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../menus/formularios-cadtms.css">
-    <title>Cadastro de TMS</title>
+    <link rel="stylesheet" href="../menus/formularios-cadramais.css">
+    <title>Cadastro de Ramais</title>
 </head>
 <body>
 <a href="../../principal.php" class="link-formularios"><img src="../imgs/icon-home.png" title="Clique para voltar"></a>
 <div class="formulario-container">
-    <h1 class="titulo-formulario">Cadastro de TMS</h1>
+    <h1 class="titulo-formulario">Cadastro de Ramais</h1>
     <form method="post" action="#" class="form-control">
-        <label class="rotulo-campo">Cliente:&nbsp;</label>
-        <input name="empresa" type="text" class="dado-campo" placeholder="" maxlength="" autocomplete="off" required>
-        <label class="rotulo-campo">TMS:&nbsp;&nbsp;&nbsp;</label>
-        <select class="dado-campo-s" placeholder="" maxlength="" autocomplete="off" required>
-            <option value="SSW" class="dado-campo">SSW</option>
+        <label class="rotulo-campo">Ramal:&nbsp;</label>
+        <input name="ramal" type="text" class="dado-campo-r" placeholder="" maxlength="" autocomplete="off" required>
+        <label class="rotulo-campo">Setor:&nbsp;&nbsp;&nbsp;</label>
+        <select class="dado-campo" placeholder="" maxlength="" autocomplete="off" required>
+            <option value="Compartilhada" class="dado-campo">Central Compartilhada</option>
             <option value="Bsoft" class="dado-campo">Bsoft</option>
             <option value="A3" class="dado-campo">A3Software</option>
             <option value="DSS" class="dado-campo">DSS</option>
@@ -33,14 +33,8 @@
             <option value="Software-proprietario" class="dado-campo">Software-proprietario</option>
             <option value="Atena" class="dado-campo">Atena</option>
         </select><br>        
-        <label class="rotulo-campo">Contato:</label>
-        <input name="contato" type="text" class="dado-campo" placeholder="" maxlength="" autocomplete="off" required>
-        <label class="rotulo-campo">E-mail:</label>
-        <input name="email" type="email" class="dado-campo" placeholder="" maxlength="" autocomplete="off" required><br>
-        <label class="rotulo-campo">Tarefa recebida em:&nbsp;</label>
-        <input name="inicio" type="date" class="dado-campo-dia" placeholder="" maxlength="" autocomplete="off" required><br>
-        <label class="rotulo-campo">Histórico de Atendimento:</label><br>
-        <textarea name="historico" class="historico" rows="13" cols="85"></textarea><br>
+        <label class="rotulo-campo">Descrição:</label><br>
+        <textarea name="historico" class="historico" rows="9" cols="80"></textarea><br>
         <input type="submit" class="btn btn-success" value="Enviar" id="button" onclick="">
     </form>
 </div>
