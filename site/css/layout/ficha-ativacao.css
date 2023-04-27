@@ -5,5 +5,7 @@
 }
 body
 {
-   
+   background-image: url('../../img/fundos-telas/fundo-ficha-at.png');
+   background-repeat: no-repeat;
+   background-size: cover;
 }
