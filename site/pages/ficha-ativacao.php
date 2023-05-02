@@ -38,7 +38,6 @@ $result = $conexao->query($sql);
                 <th scope="col">#</th>
                 <th scope="col">Placa</th>
                 <th scope="col">Porta</th>
-                <th scope="col">Ficha</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,7 +48,6 @@ $result = $conexao->query($sql);
                                 echo "<td>" .$user_data['id']."</td>";
                                 echo "<td>" .$user_data['placa']."</td>";
                                 echo "<td>" .$user_data['porta']."</td>";
-                                echo "<td>" .$user_data['ficha']."</td>";
                             }
                     ?>
             </tbody>

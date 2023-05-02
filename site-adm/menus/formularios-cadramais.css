@@ -11,7 +11,7 @@
 .formulario-container{
     margin: 50px 45%;
     width: 700px;
-    height: 400px;
+    height: 450px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -53,7 +53,7 @@
 }
 .dado-campo-r
 {
-    width: 100px;
+    width: 200px;
     height: 30px;
     margin: 10px;
     border-radius: 5px;
